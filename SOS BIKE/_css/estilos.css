@@ -1,0 +1,190 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* 1° parte do site */
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -150px;
+}
+
+.container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.h1-video {
+    position: relative;
+    z-index: 9999;
+    background-color: #7da68b;
+    color: white;
+    width: 460px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+.conteudo {
+    display: block;
+    margin: 0 auto;
+    padding: 120px 0;
+    size: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.conteudo p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 600px;
+    margin: 0px auto 0px auto;
+    line-height: 35px;
+    padding-top: 50px;
+}
+
+/* 2 parte do site   */
+.bgcinza {
+    background-image: url('../_background/background-2.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.destaque-laranja {
+    font-weight: bold;
+    background-color: #e95c2a;
+    padding: 0 3px;
+}
+
+.destaque-negrito {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 0 3px;
+}
+
+.agende {
+    text-decoration: none;
+    background-color: #e95c2a;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+/* 3° parte do site */
+
+.bg-verde {
+    background-image: url('../_background/background-3.jpg');
+    width: 100%;
+    height: 100vh;
+    margin-top: 15px;
+}
+
+div .h1-verde {
+    color: white;
+    margin: 00px auto;
+    padding-top: 100px;
+    width: 800px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.marcas {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logos {
+    width: 120px;
+    padding: 0 30px;
+    margin: 80px 20px 0 0px;
+}
+
+.paragrafo-3 {
+    color: #fff;
+    width: 600px;
+    font-size: 22pt;
+    margin: 180px auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* 4° parte do site */
+
+.bg-4 {
+    background-image: url('../_background/background-04.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.h1-bg4 {
+    margin: 15px auto;
+    color: black;
+    font-size: 34pt;
+    width: 600px;
+    padding: 60px;
+    text-align: center;
+}
+
+.Ldesq {
+    width: 100%;
+    margin-left: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.galeria {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 0px auto;
+    width: 500px;
+}
+
+.galeria img {
+    width: 515px;
+    height: 315px;
+    margin: 10px;
+}
+
+.album  {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+footer {
+    background-color: #000;
+    color: green;
+    font-size: 24px;
+    text-align: center;
+}
+
+.icones {
+    display: block;
+    position: absolute;
+    width: 150px;
+    left: 1140px;
+    top: 3330px
+}
