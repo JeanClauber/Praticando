@@ -1,0 +1,83 @@
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a726fa;
+    padding: 15px;
+    width: 100%;
+}
+
+legend{
+    border: 1px solid #a726fa;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.label-input {
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.inputUser{ 
+    background: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 2px solid blue;
+}
+
+.msg {
+    background: url(../_imagens/back-msg.png) no-repeat;
+    background-size: cover;
+    background-size: 30%;
+    background-position: right bottom;
+}
+
+.button {
+    background-color: #a726fa;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;    
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.number-whats {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.number-whats a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.number-whats a:hover{
+    text-decoration: underline;
+    color: #a726fa;
+}
+
+.baseboard {
+    font-size: 1.0rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.baseboard a{
+    color: #fff;
+    text-decoration: none;
+}
