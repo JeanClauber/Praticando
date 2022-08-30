@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.paginas {
+    display: flex;
+    position: relative;
+}
+
+.paginas a, a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.paginas a:hover {  
+    border-bottom: 1px solid #fff;
+}
+
+.paginas li {
+    list-style: none;
+    padding-right:30px;
+}
+
+.conteudo {
+    width: 80%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.conteudo h2 {
+    padding-bottom: 30px;
+}
+
+.conteudo p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.leia-mais {
+    background-color: #fff;
+    color: green;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
+
+/* CONTATO */
+
+.container-ctt img {
+    width: 250px;
+}
+
+.ctts {
+    margin: 50px auto;
+    width: 50%;
+    text-align: left;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.ctts a:hover {
+    text-decoration: underline;
+}
