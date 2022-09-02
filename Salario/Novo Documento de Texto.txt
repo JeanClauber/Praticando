@@ -1,0 +1,8 @@
+Vendedor
+Salario 1542,50
+
+gerente 
+salario 1800,00
+
+tecnico
+1542,50

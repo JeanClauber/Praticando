@@ -1,0 +1,30 @@
+@media (max-width: 425px){
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+    header .logo {
+        display: none;
+    }
+    .titulos h1{
+        font-size: 18px;
+    }
+    .titulos h2 {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+    fieldset label, #res, #res2 {
+        font-size: 14px;
+    }
+
+    fieldset input {
+        width: 50%;
+        height: 25px;
+    }
+    #res, #res2 {
+        text-align: center;
+    }
+}   

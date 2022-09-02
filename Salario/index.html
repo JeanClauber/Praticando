@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/media.css">
+    <title>Salario</title>
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img class="logo" src="_imagens/rc.png" alt="">
+        </div>
+        <div class="titulos">
+            <h1>Calculador do Salario e Comissão</h1>
+            <h2>Roberto Celular</h2>
+         </div>
+    </header>
+    <main>
+        <div class="container">
+            <fieldset>
+                <legend>Preencha seus dados</legend>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome aqui">
+                <label for="salario">Salario?</label>
+                <input type="number" name="salario" id="salario" placeholder="Ex: 10.000">
+                <label for="adiant">Recebe adiantamento?</label>
+                <input type="text" name="adiant" id="adiant" placeholder="sim/nao">
+                <label for="vendas">Quanto vendeu este mês?</label>
+                <input type="number" name="comissao" id="vendas" placeholder="Ex: 50Milhôes">
+                <label for="porc_comissao">Qual porcentagem da sua comissão?</label>
+                <input type="Number" name="porc_comissao" id="porc_comissao" placeholder="Colocar apenas numero, não precisa sinal de %">
+                <input class="btn" type="submit" value="Somar" onclick="somar()">
+                <div id="res"></div>
+                <div id="res2"></div>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por: <a href="">Jean Clauber</a></p>
+        <p>Copyright &copy;</p>
+    </footer>
+<script src="_script.css/script.js"></script>
+</body>
+</html>

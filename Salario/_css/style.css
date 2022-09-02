@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+header, footer {
+    background-color: rgba(209,46,39,255);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 60px;
+}
+
+.titulos {
+    margin-right: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+main, header, .container, fieldset {
+    display: flex;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    height: 667px;
+    margin: 20px auto;
+
+}
+
+.container legend {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+fieldset {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+fieldset input, fieldset label {
+    width: 40%;
+    height: 40px;
+}
+
+.btn {
+    text-align: center;
+    width: 25%;
+    margin: 10px auto;
+    background-color: rgba(209,46,39,255);
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgba(209,46,39,255);
+}
+
+fieldset, fieldset label, fieldset input {
+    margin: 10px auto;
+}
+
+#res, #res2 {
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a, .btn{
+    text-decoration: none;
+    color: white;
+}
