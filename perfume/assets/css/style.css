@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lato:wght@400;700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3eae3;
+}
+
+/* display flex */
+.container, .contents, .price {
+    display: flex;
+}
+
+.contents, .container, .price, .text-content p, .titles-content, .titles-content h1, h5, .price h1, p, .buy-btn {
+    background-color: #fff;
+}
+
+.container {
+    width: 500px;
+    margin: 200px auto;
+}
+
+.contents {
+    width: 40%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.contents p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.titles-content {
+    text-align: left;
+    line-height: 30px;
+}
+
+.titles-content h5{
+    letter-spacing: 3px;
+    font-size: 10px;
+    color: rgb(169, 169, 169);
+}
+
+.titles-content h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.perfume img {
+    width: 255px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.price {
+    align-items: center;
+    gap: 15px;
+    color: #065739;
+    font-family: 'Fraunces';
+}
+
+.price p {
+    text-decoration: line-through;
+    color: black;
+}
+
+.buy-btn input{
+    text-align: center;
+    padding: 10px 50px;
+    width: 100%;
+    background-color: #3d8168;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.buy-btn input:hover {
+    background: #065739;
+}
